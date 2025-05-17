@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: aliceblue;    
+    color: aliceblue;       
+}
+
+body {
     background-color: rgb(57, 57, 57);
 }
 
@@ -18,22 +21,24 @@ p {
     margin-bottom: 15px;
     color: rgb(194, 194, 194);
     width: 75%;
+    line-height: 1.3em;
 }
 
-img {
+.topo img {
     width: 30%;
     border-radius: 20px;
 }
 
-ul {
+.links-favoritos ul {
     display: flex;
     gap: 50px;
     list-style-type: none;    
 }
 
-a {
+.links-favoritos a {
     text-decoration: none;
     color: rgb(194, 194, 194);
+    align-items:center;
 }
 
 i {
@@ -54,8 +59,7 @@ i:hover {
 }
 
 .links-favoritos {
-    padding: 40px;
-    display: block;
+    padding: 40px;    
     background-color: rgb(57, 57, 57);
 }
 
@@ -65,11 +69,24 @@ i:hover {
     background-color: rgb(57, 57, 57);    
 }
 
-.icones {
-    display: flex;
-}
-
 .tagline {
     color: rgb(120, 120, 254);
     
+}
+
+.icones-sociais i {
+    font-size: 20px;
+    gap: 20px;
+    color: rgb(120, 120, 120);
+}
+
+.icones-sociais {
+    display: flex;
+    gap: 20px;
+    list-style-type: none; 
+}
+
+.icones-sociais i:hover {
+    color: rgb(255, 255, 255);
+    transition: color 0.5s ease-in-out;
 }
